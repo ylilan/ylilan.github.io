@@ -4,5 +4,5 @@
 lilan.yang@ipmu.jp
 
 
-![ezcv logo](https://raw.githubusercontent.com/Descent098/ezcv/master/.github/logo.png)
+![ezcv logo](https://github.com/ylilan/ylilan.github.io/edit/main/lilan-whu.jpeg)
 
