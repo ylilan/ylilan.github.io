@@ -155,7 +155,10 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+body {  
+    background-image:  url("jwst.jpeg");
+    background-color: #cccccc;
+     }
 
 
 
@@ -416,9 +419,8 @@ main {
 }
 
 .contact-title {
-  color: var(--light-gray-70);
+  color: var(--light-gray);
   font-size: var(--fs-8);
-  text-transform: uppercase;
   margin-bottom: 2px;
 }
 
@@ -729,6 +731,7 @@ main {
 .clients { margin-bottom: 15px; }
 
 .clients-list {
+  color: var(--light-gray);
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -744,17 +747,29 @@ main {
 }
 
 .clients-item {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  
   min-width: 50%;
   scroll-snap-align: start;
 }
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
   transition: var(--transition-1);
 }
 
-.clients-item img:hover { filter: grayscale(0); }
+.clients-item-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 2;
+  justify-content: stretch;
+  align-items: stretch;
+  text-align: center; 
+}
 
 
 
@@ -1568,6 +1583,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .contacts-list {
     grid-template-columns: 1fr 1fr;
     gap: 30px 15px;
+    color: color: var(--light-gray-70);
   }
 
 
@@ -1851,7 +1867,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     visibility: visible;
   }
 
-  .contacts-list { grid-template-columns: 1fr; }
+  .contacts-list { grid-template-columns: 1fr; color: var(--light-gray);}
 
   .contact-info :is(.contact-link) {
     white-space: nowrap;
